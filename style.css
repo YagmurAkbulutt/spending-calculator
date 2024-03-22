@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    
+    background: linear-gradient(to left, rgb(118, 202, 195), rgba(74, 185, 83, 0.734));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+.heading{
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 20px #fff;
+}
+
+.container{
+    background-color: #ffffff48;
+    width: 500px;
+    height: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main{
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.main input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    font-style: italic;
+   /* margin-left: 5px;*/
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.double{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.form-spending .form-price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+
+input{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn{
+    background-color: rgb(231, 34, 34);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .75;
+    scale: 1.1;
+    transition: .5s;
+}
+
+.form-status{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.total{
+    background: linear-gradient(to left, rgb(118, 202, 195), rgba(74, 185, 83, 0.734));
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.total span{
+    color: rgb(224, 144, 24);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 35px;
+    overflow: auto;
+}
+
+.spending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.buttons img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 35px;
+    height: 35px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.spending h2:nth-child(2){
+    color: red;
+}
+
+.paid{
+    opacity: 0.5;
+}
+
+.paid h2:nth-child(1){
+    text-decoration: line-through;
+}
+
+.paid h2:nth-child(2){
+    color: green;
+}
